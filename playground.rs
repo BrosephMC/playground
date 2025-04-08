@@ -13,14 +13,14 @@ fn main() {
     println!("Binary: {}", binary);
     println!("Byte: {}", byte);
     
-    for i in 0..5 {
+    for i in 0..7 {
         println!("i: {}",i);
         
         if(2..=3).contains(&i){
             println!("wow");
         }
         
-        if(3..=i16::MAX).contains(&i){
+        if(5..=i16::MAX).contains(&i){
             println!("that's kinda big");
         }
         
