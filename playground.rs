@@ -20,6 +20,10 @@ fn main() {
             println!("wow");
         }
         
+        if(3..=i16::MAX).contains(&i){
+            println!("that's kinda big");
+        }
+        
     }
     
     println!("sum: {}",(2..50).sum::<i16>());
